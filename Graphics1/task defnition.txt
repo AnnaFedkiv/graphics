@@ -1,0 +1,9 @@
+Application shoil read txt file file with G-code commands lke
+...
+G1 X23 Y18 Z2
+M83
+G1 X0 Y18 Z0
+G1 X23 Y18 Z2
+...
+
+lines startng with "G1" should be parsed and numeric values X and Y should be taken as start and end point for drawing lines.

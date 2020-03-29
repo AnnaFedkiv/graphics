@@ -16,5 +16,11 @@ namespace Graphics1
         {
             InitializeComponent();
         }
+
+        private void button1_create_Click(object sender, EventArgs e)
+        {
+            picture_created a = new picture_created();
+            a.Show();
+        }
     }
 }

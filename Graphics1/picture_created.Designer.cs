@@ -1,6 +1,6 @@
 ﻿namespace Graphics1
 {
-    partial class Form1
+    partial class picture_created
     {
         /// <summary>
         /// Required designer variable.
@@ -28,34 +28,20 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.button1_create = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // button1_create
-            // 
-            this.button1_create.Location = new System.Drawing.Point(419, 317);
-            this.button1_create.Name = "button1_create";
-            this.button1_create.Size = new System.Drawing.Size(158, 53);
-            this.button1_create.TabIndex = 0;
-            this.button1_create.Text = "Create";
-            this.button1_create.UseVisualStyleBackColor = true;
-            this.button1_create.Click += new System.EventHandler(this.button1_create_Click);
-            // 
-            // Form1
+            // picture_created
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.button1_create);
-            this.Name = "Form1";
-            this.Text = "Form1";
+            this.ClientSize = new System.Drawing.Size(681, 450);
+            this.Name = "picture_created";
+            this.Text = "picture_created";
+            this.Paint += new System.Windows.Forms.PaintEventHandler(this.picture_created_Paint);
             this.ResumeLayout(false);
 
         }
 
         #endregion
-
-        private System.Windows.Forms.Button button1_create;
     }
 }
-
